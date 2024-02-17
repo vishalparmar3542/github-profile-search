@@ -1,9 +1,5 @@
 
-## Challenge outline
-
 This challenge involves implementing application using github api. 
-
-The services that you need to use are already implemented - check out ApiService.
 
 ## Installation
 
