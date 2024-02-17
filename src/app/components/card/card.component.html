@@ -1,0 +1,27 @@
+
+<div  class=" h-58 max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
+
+    <h5 class="mb-2 text-2l font-bold tracking-tight text-gray-900 dark:text-white">{{repo.name}}</h5>
+    <p class="font-normal text-white-700 dark:text-gray-400">{{repo.discription}}</p>
+    <p class="font-normal text-white-700 dark:text-gray-400">Created on : {{repo.created_at | date:'dd/MM/YY'}}</p>
+    <p class="font-normal text-white-700 dark:text-gray-400">Last updated : {{repo.updated_at | date:'dd/MM/YY'}}</p>
+    <p class="font-normal text-white-700 dark:text-gray-400">{{repo.discription}}</p>
+    <a class="font-normal text-white-700 dark:text-gray-600 hover:text-gray-500" href="{{repo.html_url}}">Know more</a>
+    <p >
+        <span
+        class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-1 py-1 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800" 
+         *ngFor="let topic of repo.topics">{{topic}} </span>
+    </p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+       
