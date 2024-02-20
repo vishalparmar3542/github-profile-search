@@ -34,8 +34,8 @@ class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg
 
 <ng-template #sloader >
      <div class="flex flex-wrap" >
-    <div class="w-2/3 max-w-sm mx-auto  h-60 " *ngFor="let _ of [].constructor(psize)"
-    class="inline-block w-2/3 h-60 max-w-sm mx-auto  bg-white border p-6 border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 ">
+    <div  *ngFor="let _ of [].constructor(psize)"
+    class="inline-block w-2/3 h-60 my-1 max-w-sm mx-auto  bg-white border p-6 border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 ">
         <ngx-skeleton-loader count="2" animation=pulse appearance="line" class="w-full" />
         <ngx-skeleton-loader count="3" animation=pulse appearance="line" class="w-1/4" />
       </div>
