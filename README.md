@@ -20,4 +20,5 @@ Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn 
 Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
 
 ## Tech used
-Angular.js Tailwind Typescript 
+Angular.js Tailwind Typescript  
+## used github RESTapi
